@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Esaias Bank App",
+            "file": "${workspaceFolder}/index.html"
+        }
+    ]
+}

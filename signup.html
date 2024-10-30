@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Esaias Bank</title>
+    <link rel="icon" type="image/png" href="/IMG_20240604_173855_627.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="IMG_20240604_173855_627.jpg" alt="Esaias Bank Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+            <li><a href="signup.html">Register</a></li>
+            <li><a href="transfer.html">Transfers</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="showcase">
+        <h1>Create Your Account</h1>
+        <p>Get started with Esaias Bank for all your banking needs.</p>
+    </header>
+
+    <main>
+        <section class="auth-form">
+            <h2>Sign Up</h2>
+            <form action="#" method="post">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <label for="sex">Sex</label>
+                <select id="sex" name="sex" required>
+                    <option value="">Select your sex</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" placeholder="Enter your address" required>
+
+                <button type="submit" class="btn">Sign Up</button>
+                <p>Already have an account? <a href="signin.html">Sign In</a></p>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
+

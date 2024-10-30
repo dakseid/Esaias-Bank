@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer - Esaias Bank</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/IMG_20240604_173855_627.jpg">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="IMG_20240604_173855_627.jpg" alt="Esaias Bank Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+            <li><a href="signup.html">Register</a></li>
+            <li><a href="transfer.html">Transfers</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="showcase">
+        <h1>Transfer Money</h1>
+        <p>Transfer funds securely and easily from your Esaias Bank account to another.</p>
+    </header>
+
+    <main>
+        <section class="transfer-form">
+            <h2>Send Money</h2>
+            <form action="#" method="post">
+                <label for="sender-name">Sender's Name</label>
+                <input type="text" id="sender-name" name="sender-name" placeholder="Enter your name" required>
+
+                <label for="sender-account">Sender's Account Number</label>
+                <input type="text" id="sender-account" name="sender-account" placeholder="Enter your account number" required>
+
+                <label for="bank-name">Bank Name</label>
+                <input type="text" id="bank-name" name="bank-name" placeholder="Enter bank name" required>
+
+                <label for="receiver-name">Receiver's Name</label>
+                <input type="text" id="receiver-name" name="receiver-name" placeholder="Enter receiver's name" required>
+
+                <label for="receiver-account">Receiver's Account Number</label>
+                <input type="text" id="receiver-account" name="receiver-account" placeholder="Enter receiver's account number" required>
+
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+
+                <label for="description">Description</label>
+                <textarea id="description" name="description" placeholder="Enter transaction description" rows="3"></textarea>
+
+                <button type="submit" class="btn">Transfer</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
